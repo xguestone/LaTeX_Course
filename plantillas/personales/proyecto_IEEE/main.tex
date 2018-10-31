@@ -1,0 +1,132 @@
+%%=====================================================================================
+%%
+%%       Filename:  main.tex
+%%
+%%    Description:  Plantilla para proyecto en formato IEEE
+%%
+%%        Version:  1.0
+%%        Created:  31/10/18
+%%       Revision:  none
+%%
+%%         Author:  Herbert Arias (dayanqwe123@gmail.com), 
+%%   Organization:  
+%%      Copyright:  Copyright (c) 2018, Herbert Arias
+%%
+%%          Notes:  
+%%
+%%=====================================================================================
+
+\documentclass[twocolumns]{IEEEtran}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{authblk}
+\usepackage[spanish]{babel}
+\usepackage{blindtext}
+\usepackage[utf8]{inputenc}
+\title{Protocolo: Propuesta de Formato de Presentación de Taller de Investigación I}
+\author[1]{G. M. Chávez-Campos}
+\author[2]{H. J. Simpson}
+\affil[1]{Departamento de Ingeniería Electrónica, Instituto Tecnológico de Morelia}
+\affil[2]{Twenty Century Fox}
+
+\begin{document}
+\maketitle %Título
+\begin{abstract}
+   El resumen debe de ser preferentemente un parrafo conciso, de una longitud
+   aproximada de entre 200 a 350 palabras. Se recomienda que el resumen sea
+   escrito al final, los autores deben de incluir la relevancia del tópico, que
+   aspectos se abordan en el trabajo, cuál es la metodología, tesis, hipótesis
+   y que resultados se obtuvieron.
+\end{abstract}
+\section{Semblanza del problema}
+%Información relacionada con el problema a resolver e.g. - Generación de energía en lugares aislados.
+En esta sección se recomienda presentar la relevancia del tópico que se aborda
+en el trabajo desde un aspecto muy general. De ser necesario el autor debe
+definir terminología, conceptos o aspectos un poco más particulares. De las
+misma forma debe resaltarse las ventajas y/o aplicaciones del tópico que se
+aborda.
+
+Por otro lado, conforme al autor avanza debe indicar cuales son las debilidades
+o desventajas del tópico abordado. Enfatizando el problema que se pretende
+resolver. Consecuentemente el autor debe especificar que puntos o áreas serán
+las que aborde o resuelva en el proyecto que se presenta.
+
+%\blindtext[1] %Texto dummy
+%-------------------------------------
+\section{Revisión del estado del arte}
+%En esta sección describir los avances recientes para resolver el problema planteado
+
+A lo largo de la presente sección el autor debe presentar que han hecho otros
+autores, empresas o investigadores, para intentar resolver el problema
+planteado. En ese sentido es importante que el autor haga las citas
+bibliográficas necesarias a otros trabajos, datos o información para respaldar
+la veracidad y formalidad del trabajo presentado; evitando hacer
+plagio\cite{Chavez-Campos2016}\cite{pascual199012}.
+
+Se recomienda ampliamente que dentro de esta sección se presenten esquemas,
+figuras, diagramas, patentes y/o procesos de otros autores. En el código de
+\LaTeX{}, se muestra como insertar figuras y hacer referencias a éstas, como la
+\figurename{} \ref{ref:FiguraA}. 
+
+
+\begin{figure}[t!]
+   \centering
+   \includegraphics[width=2.5in]{example-image-a}
+   \caption{Información textual de la figura.}\label{ref:FiguraA}
+\end{figure}
+
+De ser necesaria la presentación de ecuaciones o modelos desarrollados por
+otros autores, esta es la sección adecuada. Un ejemplo del código para escribir
+ecuaciones se presenta en \eqref{eq:y}.
+
+\begin{equation}
+   y(k)=\sum_{n=1}^{\infty}\frac{X(k)-X(k-1)}{X(k-2)}\label{eq:y}
+\end{equation}
+
+\section{Solución propuesta}
+Sección donde se describe y presenta la metodología para resolver el problema,
+normalmente se presenta un esquema que indique el montaje experimental.
+
+\section{Tesis o hipótesis}
+La tesis de un trabajo es la idea que el autor sustenta o propone para resolver
+el problema. Utilizando los argumentos expuestos  durante la semblanza del
+problema y la revisión del estado del arte.
+
+%Presentar la propuesta del autor
+
+\section{Objetivos}
+\subsection{Objetivo general}
+Durante la redacción del objetivo general utilice verbos en infinitivo,
+tratando de enmarcar éste en el problema a resolver, ejemplo: ``Identificar las
+causas de corto circuito en un sistema X, 
+a través de  la metodología Y, contribuyendo  a reducir Z''
+
+\subsection{Objetivos específicos}
+\begin{itemize}
+   \item  Identificar  x, 
+   \item Construir y,
+   \item Medir w, 
+   \item Analizar  z
+\end{itemize}
+\section{Metodología}
+En esta sección se propone el montaje experimental o esquema de conexión que se
+usará para resolver el problema. Utilice una imagen que permita identificar las
+variables o datos que ayudaran a determinar la veracidad de la hipótesis.  
+
+\section{Plan y presupuesto}
+Hacer una tabla o diagrama de las etapas o requisitos para el desarrollo del
+proyecto, usualmente se presentan diagramas de Gantt\cite{mycite2016}.
+
+\section{Conclusiones}
+Escribir aquí con conclusiones, si a esta altura del trabajo existen. 
+
+\bibliographystyle{ieeetr}
+\bibliography{Bibliography}
+\end{document}
+
+
+
+
+
+
+
