@@ -23,6 +23,11 @@
 \usepackage[spanish]{babel}
 \usepackage{blindtext}
 \usepackage[utf8]{inputenc}
+\usepackage{hyperref} 
+\hypersetup{hidelinks}
+\usepackage[style=ieee,backend=biber]{biblatex} 
+\bibliography{Bibliography.bib}
+
 \title{Protocolo: Propuesta de Formato de Presentación de Taller de Investigación I}
 \author[1]{G. M. Chávez-Campos}
 \author[2]{H. J. Simpson}
@@ -49,7 +54,7 @@ aborda.
 Por otro lado, conforme al autor avanza debe indicar cuales son las debilidades
 o desventajas del tópico abordado. Enfatizando el problema que se pretende
 resolver. Consecuentemente el autor debe especificar que puntos o áreas serán
-las que aborde o resuelva en el proyecto que se presenta.
+las que aborde o resuelva en el proyecto que se presenta\cite{webdev:2018:online}.
 
 %\blindtext[1] %Texto dummy
 %-------------------------------------
@@ -120,8 +125,7 @@ proyecto, usualmente se presentan diagramas de Gantt\cite{mycite2016}.
 \section{Conclusiones}
 Escribir aquí con conclusiones, si a esta altura del trabajo existen. 
 
-\bibliographystyle{ieeetr}
-\bibliography{Bibliography}
+\printbibliography
 \end{document}
 
 
