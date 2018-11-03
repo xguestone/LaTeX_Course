@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.12)  2 NOV 2018 21:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.12)  3 NOV 2018 05:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -22,7 +22,7 @@ LaTeX Font Info:    Try loading font information for OT1+ptm on input line 503.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
--- Using 8.5in x 11in (letter) paper.
+-- Using 210mm x 297mm (a4) paper.
 -- Using PDF output.
 \@IEEEnormalsizeunitybaselineskip=\dimen105
 -- This is a 10 point document.
@@ -1217,9 +1217,9 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 129.
  ) 
 Here is how much of TeX's memory you used:
- 14550 strings out of 492982
- 239709 string characters out of 6134895
- 695240 words of memory out of 5000000
+ 14551 strings out of 492982
+ 239731 string characters out of 6134895
+ 695253 words of memory out of 5000000
  17953 multiletter control sequences out of 15000+600000
  38630 words of font info for 76 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1236,7 +1236,7 @@ xlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri
 8a.pfb>
-Output written on main.pdf (2 pages, 120514 bytes).
+Output written on main.pdf (2 pages, 120505 bytes).
 PDF statistics:
  132 PDF objects out of 1000 (max. 8388607)
  113 compressed objects within 2 object streams
